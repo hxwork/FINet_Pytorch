@@ -1,0 +1,9 @@
+experiments/experiment_finet/summary
+experiments/experiment_finet/*.log
+experiments/experiment_finet/*.pth
+experiments/experiment_finet/val*
+experiments/experiment_finet/test*
+dataset/data
+dataset/data.zip
+*/__pycache__
+checkpoints

@@ -1,0 +1,59 @@
+{
+    "exp_name": "finet",
+    "model_dir": "experiments/experiment_finet",
+    "dataset_type": "modelnet_ts",
+    "transform_type": "modelnet_ts_rpmnet_noise",
+    "net_type": "finet",
+    "loss_type": "finet",
+    "eval_type": [
+        "val",
+        "test"
+    ],
+    "major_metric": "score",
+    "titer": 4,
+    "loss_alpha1": 1,
+    "loss_alpha2": 4,
+    "loss_alpha3": 0.0005,
+    "margin": [
+        0.01,
+        0.01
+    ],
+    "rot_mag": 45,
+    "trans_mag": 0.5,
+    "num_points": 1024,
+    "partial_ratio": [
+        0.7,
+        0.7
+    ],
+    "noise_std": 0.01,
+    "save_summary_steps": 100,
+    "train_batch_size": 64,
+    "eval_batch_size": 256,
+    "num_workers": 10,
+    "overlap_dist": 0.1,
+    "num_epochs": 10000,
+    "learning_rate": 0.0001,
+    "gamma": 1,
+    "enc_config": {
+        "detach": true,
+        "lrelu": false,
+        "dropout": true,
+        "share_weights": false,
+        "dropout_ratio": 0.3,
+        "pfi": [
+            "cross",
+            "cross"
+        ],
+        "gfi": true
+    },
+    "reg_config": {
+        "t_feats": "tr-t",
+        "detach": false,
+        "R_feats": "tr-tr",
+        "lrelu": false,
+        "reg_center": true
+    },
+    "cpu": 10,
+    "gpu": 5,
+    "memory": 10240
+}
