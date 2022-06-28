@@ -69,10 +69,10 @@ For other dataset, you need to add your own dataset class in `./dataset/data_loa
 You need to download the pretrained checkpoint and run:
 
 ```
-python3 evaluate.py --model_dir=./experiments/experiment_finet --restore_file=./experiments/experiment_omnet/val_model_best.pth
+python3 evaluate.py --model_dir=./experiments/experiment_finet --restore_file=./experiments/experiment_omnet/test_model_best.pth
 ```
 
-This model weight is for TS data with Gaussian noise. The pretrained checkpoint for ModelNet40 dataset can be download via [Google Drive](https://drive.google.com/file/d/1xkWQeMabQhO4zqg6X3aj_VQCMHgeBUsD/view?usp=sharing) or [Github Release](https://github.com/megvii-research/OMNet/releases/download/V1.0.0/val_model_best.pth).
+This model weight is for unseen categories TS data with Gaussian noise. The pretrained checkpoint for ModelNet40 dataset can be download via [Google Drive](https://drive.google.com/file/d/1yyHSGPZKYimINohAj3Irdu-SGScP7T-Q/view?usp=sharing).
 
 ## Citation
 
