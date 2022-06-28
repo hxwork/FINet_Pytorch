@@ -1,8 +1,8 @@
 # [AAAI 2022] OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration
 
-This is the Pytorch implementation of our AAAI2022 paper [FINet](https://arxiv.org/pdf/2106.03479.pdf). For our MegEngine implementation, please refer to [this repo](https://github.com/hxwork/OMNet_Pytorch).
+This is the Pytorch implementation of our AAAI2022 paper [FINet](https://arxiv.org/pdf/2106.03479.pdf). For our MegEngine implementation, please refer to [this repo](https://github.com/MegEngine/FINet).
 
-Our presentation video: [[Youtube](https://www.youtube.com/watch?v=u2lTKsom8oU)][[Bilibili](https://www.bilibili.com/video/BV1Ef4y1J7XP/)].
+Our presentation video: [[Youtube](https://www.youtube.com/watch?v=XDmE9iSx9WM)][[Bilibili](https://www.bilibili.com/video/BV1z44y1s7up/)].
 
 ## Our Poster
 
