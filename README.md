@@ -1,4 +1,4 @@
-# [AAAI 2022] OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration
+# [AAAI 2022] FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration
 
 This is the Pytorch implementation of our AAAI2022 paper [FINet](https://arxiv.org/pdf/2106.03479.pdf). For our MegEngine implementation, please refer to [this repo](https://github.com/MegEngine/FINet).
 
